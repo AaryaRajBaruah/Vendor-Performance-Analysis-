@@ -57,6 +57,12 @@ This project focuses on analyzing vendor efficiency and profitability in a retai
 
 <img width="1191" height="531" alt="Dashboard" src="https://github.com/user-attachments/assets/46ea9673-e29b-4506-856f-9e163f1093a1" />
 
+
+## POWER BI DASHBOARD
+
+<img width="1202" height="676" alt="BI dashboard" src="https://github.com/user-attachments/assets/aca7faac-94ae-4e3e-be45-b28dc5815ff0" />
+
+
 ---
 
 ## 🧠 Learnings
