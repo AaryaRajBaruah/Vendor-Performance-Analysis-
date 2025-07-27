@@ -53,7 +53,8 @@ This project focuses on analyzing vendor efficiency and profitability in a retai
 
 ## 📷 Sample Dashboards
 
-*(Include screenshots or .pbix file links if available)*
+## EXCEL DASHBOARD
+<img width="1172" height="527" alt="Dashboard" src="https://github.com/user-attachments/assets/de9daee4-9454-4f72-a7ca-ae551dc8f4d9" />
 
 ---
 
