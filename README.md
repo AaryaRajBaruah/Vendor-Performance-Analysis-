@@ -1,10 +1,3 @@
-
-Got it ✅ — you want to make the **GitHub README** visually more attractive using **icons/emojis** while keeping it professional and engaging.  
-
-Here’s the redesigned **README.md** with proper icons, formatting, and emphasis so it stands out on GitHub:  
-
-***
-
 # 📊 Vendor Performance Data Analytics - End-to-End Project
 
 ## 📌 Project Overview
