@@ -121,12 +121,5 @@ The Power BI dashboard was designed with clarity and business-readability in min
 
 ---
 
-## 🤝 Let's Collaborate
 
-Let’s collaborate on turning insights into action!
 
-## ❤️ Contact
-- 📧 garimakushwaha0807@gmail.com
-- 🚀 [Garima Kushwaha](https://github.com/Garimakushh)
-
-***
