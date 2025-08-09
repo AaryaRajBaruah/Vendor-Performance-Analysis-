@@ -1,65 +1,131 @@
 # 📊 Vendor Performance Data Analytics - End-to-End Project
 
-## 📌 Project Overview
+An intelligent, data-driven dashboard solution to uncover actionable insights on vendor efficiency, brand performance, and inventory optimization in the retail and wholesale industry.
 
-This project walks through a **real-world data analytics workflow** to evaluate vendor performance using a retail/wholesale dataset.  
-It covers the full lifecycle — from **SQL data modeling** 🗄, **Python analysis** 🐍, to **Power BI dashboards** 📈, and **actionable business reporting** 📝.  
+---
 
-**🎯 Goal:**  
-Maximize profitability by:  
-- Identifying underperforming brands 🚩  
-- Highlighting top vendors 🏆  
-- Assessing bulk purchasing 📦  
-- Improving inventory turnover 🔄  
-- Understanding profitability variance 💹  
+## 🧩 Problem Statement
 
-***
+Retail and wholesale businesses face major profitability challenges due to:
+- Poor inventory turnover
+- Underperforming vendors or brands
+- Unoptimized pricing
+- Excessive reliance on a few suppliers
+- Capital tied up in unsold inventory
 
-## 🔄 Project Workflow
+This project addresses these issues by developing a comprehensive dashboard and analytics pipeline to:
+- Identify top- and low-performing vendors and brands
+- Optimize pricing and purchasing decisions
+- Minimize unsold inventory and improve turnover
+- Increase profit margins and reduce cost inefficiencies
 
-1. **🗂 Business Problem Definition** — Align analysis with business needs for inventory and sales optimization.  
-2. **💾 Data Modeling (SQL)** —  
-   - Import & store raw CSVs in **SQLite**.  
-   - Clean, join & aggregate data into analytics-ready tables.  
-   - Create reproducible **ETL scripts** with logging.
-3. **📊 Exploratory Data Analysis (Python)** —  
-   - Clean, transform & engineer features using **pandas**.  
-   - Visualize trends using **matplotlib** & **seaborn**.
-4. **📈 Dashboarding (Power BI)** —  
-   - Build interactive visuals for vendor & brand performance.  
-5. **📝 Reporting** —  
-   - Deliver stakeholder-ready insights & recommendations.  
+---
 
-***
+## 🛠 Tools & Tech Stack
 
-## 🛠 Technologies Used
+| Tool/Tech           | Purpose                                  |
+|---------------------|-------------------------------------------|
+| **Python (Pandas, NumPy)** | Data preprocessing & analysis      |
+| **Power BI**        | Dashboard visualization                  |
+| **Excel**           | Raw data manipulation                    |
+| **Matplotlib/Seaborn** | EDA & correlation visuals           |
+| **Jupyter Notebook**| Exploratory Data Analysis & statistics  |
+| **PostgreSQL** | Backend data querying               |
 
-| Tool / Tech | Purpose |
-|-------------|---------|
-| 🗄 **SQL (SQLite, SQLAlchemy)** | Data modeling, ETL, analysis |
-| 🐍 **Python (pandas, matplotlib, seaborn)** | Data cleaning, EDA, visualization |
-| 📊 **Power BI** | Interactive dashboard creation |
-| 📜 **Logging & ETL Pipelines** | Reproducibility & monitoring |
+---
 
-***
+## 🧪 Project Workflow & Steps
 
-## 💡 Key Insights & Results
+1. **Data Collection**  
+   - Gathered vendor, brand, and sales data from internal sources.
 
-- 🚩 **Underperforming Brands:** Low sales & poor inventory turnover ➡ Targeted pricing & promotions.  
-- 🏆 **Top Vendors:** Ranked by sales & profit ➡ Better vendor relationship focus.  
-- 📦 **Bulk Purchasing Impact:** Bulk buying influenced unit costs ➡ Procurement strategy refinement.  
-- 🔄 **Inventory Turnover:** Identified slow-moving stock ➡ Cost-saving inventory control.  
-- 💹 **Profitability Variance:** Margin differences pinpointed high-value vendor partnerships.  
+2. **Data Cleaning & Preprocessing**  
+   - Removed records with zero sales, negative profit, and invalid margin data.
+   - Filtered and normalized vendor-brand mappings.
 
-✅ These insights help drive **inventory optimization**, **pricing strategies**, **vendor prioritization**, and **procurement efficiency**.
+3. **Exploratory Data Analysis (EDA)**  
+   - Investigated outliers, correlations, and key statistics.
+   - Identified underperforming vs. high-performing vendors.
 
-***
+4. **Statistical Validation**  
+   - Used hypothesis testing to compare profit margins across groups.
 
-## 💼 Business Value
+5. **Dashboard Design**  
+   - Built an interactive Power BI dashboard with key KPIs, bar charts, donut charts, and scatter plots.
 
-This project demonstrates **how data analytics can deliver real impact** by:  
-- 📊 Turning messy data into actionable insights  
-- ⏳ Streamlining workflows with reproducible ETL pipelines  
-- 🚀 Supporting strategic business decisions with clear metrics  
+6. **Insight Generation & Reporting**  
+   - Developed PDF report summarizing analysis, insights, and recommendations.
+
+---
+
+## 🎨 Visualization & Design
+
+The Power BI dashboard was designed with clarity and business-readability in mind:
+- ✅ High-level KPIs: Sales, Purchases, Gross Profit, Margin, Unsold Capital
+- 📊 Bar charts for top vendors/brands
+- 🎯 Donut chart for vendor purchase contribution
+- ⚠️ Highlighted low-performing vendors/brands visually
+- 🔴 Color-coded scatter plot to separate high and low margin performers
+
+---
+
+## 📷 Visuals
+
+![Vendor Performance Dashboard](https://github.com/Garimakushh/Vendor-Performance-Analysis/blob/2eb8ed1029b02bed149cc69079d3c4cb83eb17d9/dashboard.jpg)
+---
+
+## 🔍 Use Cases
+
+- **Procurement Teams**: Identify which vendors need renegotiation or replacement.
+- **Sales & Marketing**: Promote brands with high margin but low volume.
+- **Inventory Managers**: Reduce slow-moving inventory and improve turnover.
+- **Finance Teams**: Understand profitability drivers across the vendor network.
+- **Executive Dashboarding**: Enable C-level insights in a visual format.
+
+---
+
+## 📈 Performance & Key Results
+
+### 🔎 Exploratory Data Analysis
+- **198 brands** with high margins but low sales — candidates for promotion.
+- **$2.71M** capital tied in unsold inventory.
+- Significant **bulk discounts** (~72% cost reduction per unit).
+
+### 📊 Vendor Insights
+- Top 10 vendors account for **65.7%** of total purchases.
+- Over-reliance poses **supply chain risks**.
+
+### 📉 Statistical Validation
+- **Confirmed** significant margin differences between top- and low-performing vendors.
+- **High-margin vendors** have lower volume; **top sellers** operate with leaner margins.
+
+---
+
+## ✅ Outcomes & Business Impact
+
+- 📌 **Reduced capital lock-in** with targeted clearance and stock strategies.
+- 📌 **Improved procurement planning** with vendor diversification.
+- 📌 **Data-backed decision-making** for marketing and promotions.
+- 📌 **Enhanced profitability** through bulk purchase optimization and margin control.
+
+---
+
+
+## 🚀 Future Enhancements
+
+- AI-driven vendor performance prediction
+- Real-time inventory and sales integration
+- Email or Slack alerts for critical metrics
+- Advanced scenario modeling (e.g., simulate vendor switch impact)
+
+---
+
+## 🤝 Let's Collaborate
+
+Let’s collaborate on turning insights into action!
+
+## ❤️ Contact
+- 📧 garimakushwaha0807@gmail.com
+- 🚀 [Garima Kushwaha](https://github.com/Garimakushh)
 
 ***
